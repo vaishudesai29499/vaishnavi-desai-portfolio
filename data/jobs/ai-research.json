@@ -1,0 +1,86 @@
+[
+  {
+    "id": "turing-ai-research-0",
+    "title": "AI Research Scientist",
+    "company": "Turing.com",
+    "company_logo": null,
+    "location": "Remote (US Hours)",
+    "url": "https://www.turing.com/jobs#ai-research",
+    "description": "AI Research Scientist role via Turing.com. Work with top US companies remotely. Vetted, long-term engagements with competitive pay.",
+    "tags": [
+      "turing",
+      "remote",
+      "us-company",
+      "vetted"
+    ],
+    "salary": "$50k–$120k",
+    "postedAt": "2026-06-11T14:09:31.393Z",
+    "source": "Turing.com",
+    "type": "Remote",
+    "category": "ai-research"
+  },
+  {
+    "id": "remoteok-1131958",
+    "title": "Don't See Your Role Apply Here",
+    "company": "Reflection",
+    "company_logo": null,
+    "location": "London, ",
+    "url": "https://remoteOK.com/remote-jobs/remote-dont-see-your-role-apply-here-reflection-1131958",
+    "description": "Our MissionReflectionâs mission is to build open superintelligence and make it accessible to all.Weâre developing open weight models for individuals, agents, enterprises, and even nation states. Our team of AI researchers and company builders come from DeepMind, OpenAI, Google Brain, Meta, Character.AI, Anthropic and beyond.We're always open to great people. If you're aligned with our mission ",
+    "tags": [
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "engineer"
+    ],
+    "salary": null,
+    "postedAt": "2026-05-17T11:14:15+00:00",
+    "source": "RemoteOK",
+    "type": "Remote",
+    "category": "ai-research"
+  },
+  {
+    "id": "remoteok-1130953",
+    "title": "Biology AI Training Expert",
+    "company": "Anyone AI",
+    "company_logo": null,
+    "location": "Amsterdam ",
+    "url": "https://remoteOK.com/remote-jobs/remote-biology-ai-training-expert-anyone-ai-1130953",
+    "description": "Location: RemoteType: Contract / Part-timeCommitment: 20 hours per weekCompensation: Up to 40 USD / hrProject duration: 2 months, with potential extensionAvailability: Immediate startAbout the roleWe create high-quality STEM training data for frontier AI models used by leading AI labs to improve model reasoning in scientific domains.We are seeking experts in Biology to create challenging, determin",
+    "tags": [
+      "ai",
+      "python",
+      "data annotation",
+      "data science",
+      "machine learning",
+      "part time",
+      "training"
+    ],
+    "salary": null,
+    "postedAt": "2026-04-01T00:01:02+00:00",
+    "source": "RemoteOK",
+    "type": "Remote",
+    "category": "ai-research"
+  },
+  {
+    "id": "remoteok-1130869",
+    "title": "Research Engineer",
+    "company": "Turing",
+    "company_logo": null,
+    "location": "Huila",
+    "url": "https://remoteOK.com/remote-jobs/remote-research-engineer-turing-1130869",
+    "description": "About Turing\nBased in San Francisco, California, Turing is the worldâs leading research accelerator for frontier AI labs and a trusted partner for global enterprises looking to deploy advanced AI systems. Turing accelerates frontier research with high-quality data, specialized talent, and training pipelines that advance thinking, reasoning, coding, multimodality, and STEM. For enterprises, Turin",
+    "tags": [
+      "ai",
+      "engineer",
+      "machine learning",
+      "data science",
+      "code"
+    ],
+    "salary": null,
+    "postedAt": "2026-03-24T16:00:25+00:00",
+    "source": "RemoteOK",
+    "type": "Remote",
+    "category": "ai-research"
+  }
+]
