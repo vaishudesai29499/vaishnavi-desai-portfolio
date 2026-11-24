@@ -1,79 +1,28 @@
-# 🧠 AI Job Hub — Full Production App
+# Vaishnavi Desai: Portfolio (React + TypeScript + Tailwind + Framer Motion)
 
-A complete full-stack AI career platform with jobs, news, blog, quiz, job radar and portfolio.
+Fully static site: no backend, no server cost. Contact is a `mailto:` link, plus Medium, LinkedIn and GitHub links.
 
----
-
-## 🚀 Quick Start (3 Steps)
-
+## Run locally
 ```bash
-# 1. Install
 npm install
-
-# 2. Already configured — just run
-npm run dev
-
-# 3. Open
-http://localhost:3000
+npm run dev      # http://localhost:5173
+npm run build    # type-check + production build in dist/
 ```
 
----
-
-## 📱 Pages / Routes
-
-| Route | Description |
-|---|---|
-| `/` | Home — hero, categories, platform cards, features |
-| `/jobs` | All AI jobs with search + category filter |
-| `/jobs/[category]` | 8 category pages (annotation, prompt-eng, training...) |
-| `/job-radar` | 🎯 Job Radar — Outlier + Turing + CrossingHurdles in one view |
-| `/news` | AI News with 🇮🇳 India + 🌐 Global filter |
-| `/blog` | Medium blog @vaishnavidesai29 |
-| `/quiz` | 50-question AI quiz with timer + hints + scoring |
-| `/portfolio` | Developer portfolio (Vaishnavi Desai) |
-
----
-
-## ⚙️ Job Sources (6 total — all FREE)
-
-| Source | Type | API |
-|---|---|---|
-| **RemoteOK** | Remote AI jobs | Free, no key |
-| **Remotive** | Remote tech jobs | Free, no key |
-| **Arbeitnow** | Global job board | Free, no key |
-| **Outlier AI** | AI Evaluation/Training | Greenhouse API + fallback |
-| **Turing.com** | Remote dev roles | Static curated entries |
-| **Crossing Hurdles** | AI/Data jobs | API + fallback |
-
----
-
-## 📰 News Sources
-
-**Global AI:** OpenAI, Anthropic, Google, Meta AI, Hugging Face, TechCrunch...
-**Indian Tech:** Times of India · Economic Times · NDTV · Hindustan Times · The Hindu · LiveMint · Business Standard · Inc42 · YourStory
-
----
-
-## ⏰ Cron Schedule
-
-| Task | Frequency | Manual: POST /api/cron-trigger?type= |
-|---|---|---|
-| News | Every 6 hours | `news` |
-| Jobs | Every 12 hours | `jobs` |
-| Blog | Daily 8am | `blog` |
-
----
-
-## 🔑 Environment (.env.local)
-
-```env
-NEWSAPI_KEY=Your_api_key   # pre-configured
-MEDIUM_USERNAME=vaishnavidesai29               # pre-configured
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+## Edit content (data files only)
 ```
+src/data/
+  profile.ts      name, email, LinkedIn, GitHub, Medium, nav links
+  hero.ts         hero wordmark, tagline, the three hero tabs
+  projects.ts     the 6 projects
+  expertise.ts    Skills section (5 groups)
+  marquee.ts      scrolling skill rows
+  experience.ts   Career tickets
+  credentials.ts  education + certifications
+  images/         profile.webp (hero badge) + optional <project-id>.webp screenshots
+```
+The About text lives in `src/components/about/AboutSection.tsx`.
 
----
-
-## 🛠 Tech Stack
-
-Next.js 14 · Tailwind CSS · node-cron · axios · xml2js · JSON storage (no DB needed)
+## Deploy
+Any static host works (Vercel, Netlify, S3 + CloudFront). Build command `npm run build`, output `dist`.
+For S3 + CloudFront: `S3_BUCKET=your-bucket CF_DIST_ID=EXXXX npm run deploy` (AWS CLI configured). See `deploy/CHECKLIST.md`.
